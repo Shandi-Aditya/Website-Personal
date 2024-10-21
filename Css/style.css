@@ -158,4 +158,22 @@ hr {
     padding: 80px 10px;
 }
 
+#portofolio.container {
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent; /* Menghilangkan kotak putih */
+}
+
+#portofolio.container img {
+    object-fit: cover; /* Mengisi kotak gambar dengan proporsional */
+    width: 100%; /* Mengatur gambar agar memenuhi kontainer */
+    height: auto;
+}
+
+
+
 /* End Galery Portofolio */
